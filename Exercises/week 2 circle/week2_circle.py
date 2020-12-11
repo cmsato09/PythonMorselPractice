@@ -1,8 +1,8 @@
 import math
 
-
 class Circle():
-
+    """ Circle class that takes radius value and can give diameter and area
+    from given radius"""
     def __init__(self, radius=1):
         self.radius = radius
 

@@ -1,7 +1,8 @@
 import string
 
-def count_words(words):
 
+def count_words(words):
+    """"""
     word_list = words.split()  # make list of words from given variable
     for i, wd in enumerate(word_list):
         if wd[-1] in string.punctuation:
